@@ -12,10 +12,10 @@ head:
       content: "npmx: converging communities"
   - - meta
     - property: og:image
-      content: https://www.patak.cat/images/npmx-converging-communities.jpg
+      content: https://patak.cat/images/npmx-converging-communities.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.cat/npmx/converging-communities
+      content: https://patak.cat/npmx/converging-communities
   - - meta
     - property: og:description
       content: The story of the many people and communities that converged to build npmx together
