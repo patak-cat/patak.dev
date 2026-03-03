@@ -3,6 +3,14 @@
 Here are some of my latest writings about Vite, Vue and the Web.
 
 
+<BlogPost image="/images/npmx-converging-communities.jpg">
+
+**[npmx: converging communities](./npmx/converging-communities.md)**
+<br>The story of the many people and communities that converged to build npmx together
+
+</BlogPost>
+
+
 <BlogPost image="/images/update.jpg">
 
 **[Update](./blog/update.md)**
