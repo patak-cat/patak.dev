@@ -12,10 +12,10 @@ head:
       content: vite build
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/vite-build-cover.jpg
+      content: https://www.patak.cat/images/vite-build-cover.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/vite/build.html
+      content: https://www.patak.cat/vite/build.html
   - - meta
     - property: og:description
       content: A walkthrough of the Vite codebase to understand how Vite bundles and optimize your code for production
@@ -95,7 +95,7 @@ Now that we have an overview of the build process centered around the entry HTML
 
 ## An Opinionated Rollup Setup
 
-At build time, you can think of Vite as an opinionated [Rollup](https://rollupjs.org/) setup. The [Rollup plugins API](https://rollupjs.org/guide/en/#plugin-development) allows Vite to support most out-of-the-box features as independent plugins. Vite uses an [extension of this plugin API](https://vitejs.dev/guide/api-plugin.html), introducing [new hooks](https://vitejs.dev/guide/api-plugin.html#vite-specific-hooks) that allows to better configure Vite (`config`, `configResolved`), transform the HTML entry (`transformIndexHtml`), and extend development mode (`configureServer`, `handleHotUpdate`). There are a few [compatibility caveats with Rollup plugins](https://vitejs.dev/guide/api-plugin.html#rollup-plugin-compatibility) to take into account, but most plugins from the rollup ecosystem [will work directly as a Vite plugin](https://vite-rollup-plugins.patak.dev/). Since we are focusing on build time, these extra hooks won't come into play. We don't have the Vite server, or HMR logic. Vite configures rollup, reusing the feature plugins that run during dev (support for JSON, wasm, workers, etc), and adds other plugins to optimize your code (minification, preloading, etc).
+At build time, you can think of Vite as an opinionated [Rollup](https://rollupjs.org/) setup. The [Rollup plugins API](https://rollupjs.org/guide/en/#plugin-development) allows Vite to support most out-of-the-box features as independent plugins. Vite uses an [extension of this plugin API](https://vitejs.dev/guide/api-plugin.html), introducing [new hooks](https://vitejs.dev/guide/api-plugin.html#vite-specific-hooks) that allows to better configure Vite (`config`, `configResolved`), transform the HTML entry (`transformIndexHtml`), and extend development mode (`configureServer`, `handleHotUpdate`). There are a few [compatibility caveats with Rollup plugins](https://vitejs.dev/guide/api-plugin.html#rollup-plugin-compatibility) to take into account, but most plugins from the rollup ecosystem [will work directly as a Vite plugin](https://vite-rollup-plugins.patak.cat/). Since we are focusing on build time, these extra hooks won't come into play. We don't have the Vite server, or HMR logic. Vite configures rollup, reusing the feature plugins that run during dev (support for JSON, wasm, workers, etc), and adds other plugins to optimize your code (minification, preloading, etc).
 
 As we saw in the previous section, [esbuild](https://esbuild.github.io/) is used to transpile individual files (to strip typescript types and compile JSX) and as the default minifier. esbuild is also used as a bundler when pre-bundling dependencies, but this is a dev-only process. This may change in the future, there is a [proposal](https://github.com/vitejs/vite/discussions/4921#discussion-3569543) to use esbuild pre-bundle dependencies also for production, aliasing dependencies to these chunks during the Rollup build phase.
 
@@ -279,7 +279,7 @@ import Button from '../../components/Button.vue'
 
 ### 2. `... user pre plugins`
 
-These are the plugins with [`enforce: 'pre'`](https://vitejs.dev/guide/api-plugin.html#plugin-ordering). For example, the [`@rollup/plugin-image`](https://vite-rollup-plugins.patak.dev/#image) requires this flag so it is applied before Vite asset handling internal plugins.
+These are the plugins with [`enforce: 'pre'`](https://vitejs.dev/guide/api-plugin.html#plugin-ordering). For example, the [`@rollup/plugin-image`](https://vite-rollup-plugins.patak.cat/#image) requires this flag so it is applied before Vite asset handling internal plugins.
 
 ### 3. `vite:modulepreload-polyfill`
 
@@ -522,7 +522,7 @@ A simple plugin that provides build load fallback for arbitrary requests with qu
 
 ## The Vite ecosystem
 
-In this post, we are only describing the basic setup Vite. If you are using a framework, you'll include a plugin from its community that provides support for transpiling custom formats (`.vue`, `.svelte`, `.astro`), and perform further framework specific build optimizations. You'll also extend Vite's capabilities through plugins to load other file formats, comfortably work with icons, add PWA support, and so on. You can find a list of Vite community plugins in [Awesome Vite](https://github.com/vitejs/awesome-vite#plugins), or in [Awesome Rollup](https://github.com/rollup/awesome#plugins) since most of them are [compatible with Vite](https://vite-rollup-plugins.patak.dev/). Integrations also use Vite Javascript API as part of more complex setups that use Vite internally. There is also an increasing number of plugins implemented with [unplugin](https://github.com/unjs/unplugin), a unified plugin system for Vite, Rollup, and Webpack. Vite build can also be used through [Vite JavaScript API](https://vitejs.dev/guide/api-javascript.html#build), allowing integrations with more complex tools and app frameworks.
+In this post, we are only describing the basic setup Vite. If you are using a framework, you'll include a plugin from its community that provides support for transpiling custom formats (`.vue`, `.svelte`, `.astro`), and perform further framework specific build optimizations. You'll also extend Vite's capabilities through plugins to load other file formats, comfortably work with icons, add PWA support, and so on. You can find a list of Vite community plugins in [Awesome Vite](https://github.com/vitejs/awesome-vite#plugins), or in [Awesome Rollup](https://github.com/rollup/awesome#plugins) since most of them are [compatible with Vite](https://vite-rollup-plugins.patak.cat/). Integrations also use Vite Javascript API as part of more complex setups that use Vite internally. There is also an increasing number of plugins implemented with [unplugin](https://github.com/unjs/unplugin), a unified plugin system for Vite, Rollup, and Webpack. Vite build can also be used through [Vite JavaScript API](https://vitejs.dev/guide/api-javascript.html#build), allowing integrations with more complex tools and app frameworks.
 
 ## Closing Thoughts
 

@@ -12,10 +12,10 @@ head:
       content: The Vite Ecosystem
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/vite-ecosystem-cover.jpg
+      content: https://www.patak.cat/images/vite-ecosystem-cover.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/vite/ecosystem.html
+      content: https://www.patak.cat/vite/ecosystem.html
   - - meta
     - property: og:description
       content: An exploration of the projects, teams and individuals collaborating to push Vite and the DX of our frontend tooling forward
@@ -605,7 +605,7 @@ home="github.com/rollup/awesome#readme"
 github="rollup/awesome"
 >
 
-The Rollup ecosystem maintains [core plugins in the Rollup org](https://github.com/rollup/plugins#readme), and there is a list of community plugins at [Awesome Rollup](https://github.com/rollup/awesome#plugins). [Vite Plugin API](https://vitejs.dev/guide/api-plugin.html) is [mostly compatible with Rollup](https://vitejs.dev/guide/api-plugin.html#rollup-plugin-compatibility). We are also maintaining a list of [Vite Rollup plugins compatibility](https://vite-rollup-plugins.patak.dev/). Since the Rollup ecosystem is getting closer to Vite, I hope we start seeing "Works in Vite" badges in Rollup plugins docs in the future. Some examples of compatible plugins:
+The Rollup ecosystem maintains [core plugins in the Rollup org](https://github.com/rollup/plugins#readme), and there is a list of community plugins at [Awesome Rollup](https://github.com/rollup/awesome#plugins). [Vite Plugin API](https://vitejs.dev/guide/api-plugin.html) is [mostly compatible with Rollup](https://vitejs.dev/guide/api-plugin.html#rollup-plugin-compatibility). We are also maintaining a list of [Vite Rollup plugins compatibility](https://vite-rollup-plugins.patak.cat/). Since the Rollup ecosystem is getting closer to Vite, I hope we start seeing "Works in Vite" badges in Rollup plugins docs in the future. Some examples of compatible plugins:
 
 <div class="plugins">
 
@@ -914,7 +914,7 @@ _Continue reading_
 **[Vite 2](../web/vite-2.md)**
 <br>_A VitePress powered post about Vite 2 and the importance of the instant feedback loop that it enables_
 
-**[Vite Rollup Plugins](http://vite-rollup-plugins.patak.dev/)**
+**[Vite Rollup Plugins](http://vite-rollup-plugins.patak.cat/)**
 <br>_A list of official Rollup plugins compatibility for Vite_
 
 <br>

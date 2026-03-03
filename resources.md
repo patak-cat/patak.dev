@@ -1,6 +1,6 @@
 ## Other resources
 
-**[Vite Rollup Plugins](https://vite-rollup-plugins.patak.dev)**
+**[Vite Rollup Plugins](https://vite-rollup-plugins.patak.cat)**
 <br>Compatibility list for Rollup plugins
 
 **[Layoutit Grid Github](https://github.com/Leniolabs/layoutit-grid)**

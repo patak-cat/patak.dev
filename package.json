@@ -1,7 +1,7 @@
 {
   "name": "patak-dev",
   "version": "1.0.0",
-  "description": "patak.dev web",
+  "description": "patak.cat web",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev",

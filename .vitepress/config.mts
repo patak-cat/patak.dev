@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
 const ogDescription = `Patak's blog, talks, and projects`
-const ogImage = 'https://patak.dev/og-image.png'
+const ogImage = 'https://patak.cat/og-image.png'
 const ogTitle = `Patak's home`
-const ogUrl = 'https://patak.dev/images/patak-banner.jpg'
+const ogUrl = 'https://patak.cat/images/patak-banner.jpg'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,7 +27,7 @@ export default defineConfig({
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/patak-dev' },
-      { icon: 'bluesky', link: 'https://bsky.app/profile/patak.dev' },
+      { icon: 'bluesky', link: 'https://bsky.app/profile/patak.cat' },
       { icon: 'mastodon', link: 'https://m.webtoo.ls/@patak' }
     ],
 

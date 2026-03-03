@@ -4,7 +4,7 @@
 
 My name is Matias Capeletto. Here you'll find some of my adventures around open source, the web, and dev tooling.
 
-Connect with me at [Bluesky](https://bsky.app/profile/patak.dev).
+Connect with me at [Bluesky](https://bsky.app/profile/patak.cat).
 
 ## Latest Posts
 
@@ -49,7 +49,7 @@ Checkout all posts at the [Blog](./blog.md)
 
 ## Other resources
 
-**[Vite Rollup Plugins](https://vite-rollup-plugins.patak.dev)**
+**[Vite Rollup Plugins](https://vite-rollup-plugins.patak.cat)**
 <br>Compatibility list for Rollup plugins
 
 **[Layoutit Grid Github](https://github.com/Leniolabs/layoutit-grid)**

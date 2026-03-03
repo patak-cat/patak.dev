@@ -12,10 +12,10 @@ head:
       content: History And Persistence
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/history-and-persistence-cover.jpg
+      content: https://www.patak.cat/images/history-and-persistence-cover.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/vue/history-and-persistence.html
+      content: https://www.patak.cat/vue/history-and-persistence.html
   - - meta
     - property: og:description
       content: Using VueUse's useRefHistory and useLocalStorage as building blocks to create new composables

@@ -12,10 +12,10 @@ head:
       content:  Mark Raw Optimization
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/mark-raw-optimization.jpg
+      content: https://www.patak.cat/images/mark-raw-optimization.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/vue/mark-raw-optimization.html
+      content: https://www.patak.cat/vue/mark-raw-optimization.html
   - - meta
     - property: og:description
       content: Using markRaw to optimize VueUse's useRefHistory composable

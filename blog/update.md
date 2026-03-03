@@ -12,10 +12,10 @@ head:
       content: Update
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/update.jpg
+      content: https://www.patak.cat/images/update.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/blog/update.html
+      content: https://www.patak.cat/blog/update.html
   - - meta
     - property: og:description
       content: Onto the next stage

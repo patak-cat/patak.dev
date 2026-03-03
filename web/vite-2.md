@@ -12,10 +12,10 @@ head:
       content:  Vite 2
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/vite-2.jpg
+      content: https://www.patak.cat/images/vite-2.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/web/vite-2.html
+      content: https://www.patak.cat/web/vite-2.html
   - - meta
     - property: og:description
       content: A VitePress powered post about Vite 2 and the importance of the instant feedback loop that it enables
@@ -61,7 +61,7 @@ If you are new to this new breed of tools, [Evan You's talk at VueToronto](https
 
 ## Powered by VitePress
 
-[This page](https://patak.dev) is built using [VitepPress](https://vitepress.vuejs.org/), which now uses Vite 2. It is a great way to experience the developing flow that Vite unlocks. VitePress is a Vue-powered static site generator that is pushing the boundaries in both DX and performance. Because of the use of templates in Vue, static blocks can be detected to avoid hydration penalties. Dynamic Vue components can still be interleaved in markdown. 
+[This page](https://patak.cat) is built using [VitepPress](https://vitepress.vuejs.org/), which now uses Vite 2. It is a great way to experience the developing flow that Vite unlocks. VitePress is a Vue-powered static site generator that is pushing the boundaries in both DX and performance. Because of the use of templates in Vue, static blocks can be detected to avoid hydration penalties. Dynamic Vue components can still be interleaved in markdown. 
 
 The post is converted into a vue component so the composition API can be used to add reactive state to your documents. Components can also be imported and used in the markdown. VitePress is still able to identify the static parts of the post and only include the minimal code needed to hydrate the dynamic blocks.
 
@@ -123,7 +123,7 @@ The new [vite plugins](https://vitejs.dev/guide/api-plugin.html) format, [inspir
 > Vite plugins support a subset of Rollup plugin API with a few extra vite-specific options. A valid vite plugin is also a valid Rollup plugin. On the contrary, a Rollup plugin may or may NOT be a valid vite universal plugin, since some Rollup features do not make sense in an unbundled dev server context. That said, as long as a rollup plugin doesn't have strong coupling between its bundle phase and output phase hooks then it should just work (that means, most of them).
 > By default, the plugins are run during both serve and build. When a plugin is applied during serve, it will only run **non output plugin hooks** (see rollup type definition of [Rollup Plugin Hooks](https://rollupjs.org/guide/en/#build-hooks)). You can think of the dev server as only running `const bundle = rollup.rollup()` but never calling `bundle.generate()`.
 
-This new plugin format allows Vite to reuse a log of plugins from the rollup ecosystem and also share more code with WMR. I am maintaining a list of Vite compatible official rollup plugins at [Vite Rollup Plugins](https://vite-rollup-plugins.patak.dev/).
+This new plugin format allows Vite to reuse a log of plugins from the rollup ecosystem and also share more code with WMR. I am maintaining a list of Vite compatible official rollup plugins at [Vite Rollup Plugins](https://vite-rollup-plugins.patak.cat/).
 
 ### Error overlay
 

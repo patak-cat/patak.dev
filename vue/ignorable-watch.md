@@ -12,10 +12,10 @@ head:
       content: Ignorable Watch
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/ignorable-watch.jpg
+      content: https://www.patak.cat/images/ignorable-watch.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/vue/ignorable-watch.html
+      content: https://www.patak.cat/vue/ignorable-watch.html
   - - meta
     - property: og:description
       content: VueUse's ignorableWatch, useRefHistory and watch flush modes

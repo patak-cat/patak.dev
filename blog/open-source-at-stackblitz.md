@@ -12,10 +12,10 @@ head:
       content: Open Source at StackBlitz
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/open-source-at-stackblitz.png
+      content: https://www.patak.cat/images/open-source-at-stackblitz.png
   - - meta
     - property: og:url
-      content: https://www.patak.dev/blog/open-source-at-stackblitz.html
+      content: https://www.patak.cat/blog/open-source-at-stackblitz.html
   - - meta
     - property: og:description
       content: A retrospective on my first two years doing Open Source full-time at StackBlitz
@@ -34,7 +34,7 @@ Two years have passed [since joining StackBlitz](https://blog.stackblitz.com/pos
 
 Before we go on, I’m Matias Capeletto. You probably know me as [patak](https://github.com/patak-dev) online. At the end of 2020, I was working as Head of Culture at a fast-growing agency. As part of the internal education programs we were running, we had an Open Source club where we shared notes on how to participate in the OSS process of the packages we used. If done right, collaborating in OSS is an incredible tool to help developers level up their skills. I was trying to help others make healthy contributions, so I started to contribute myself to showcase how to do it to the group. I sent a few PRs to VueUse, then VitePress, and then I posed my eyes on Vite. Thanks to how encouraging maintainers were with my contributions, my passion for OSS quickly took over and I saw myself spending as much time as I could get on these projects. At that point, Evan You was at the end of a massive sprint to release [Vite 2](https://vitejs.dev/blog/announcing-vite2). I helped build the Discord community and worked on triaging and reviews in the repo. A few months later, I became one of the first Vite team members once [Evan set up the governance structure](https://github.com/vitejs/vite/discussions/2601) for the project. I spent that first year working on Vite in my free time. With a focus on helping others get involved, solidifying the team and our contributors base, and helping folks in the incipient ecosystem.
 
-By the end of 2021, Vite was starting to show its potential. There were many pain points, but there were a lot of smart folks now working together to improve things. [SvelteKit](https://svelte.dev/blog/sveltekit-beta#from-snowpack-to-vite) and [Astro](https://astro.build/blog/astro-021-preview/) have moved to Vite, triggering a [wave of projects joining the ecosystem](https://patak.dev/vite/ecosystem.html). [Anthony Fu](https://github.com/antfu) started hacking on [Vitest](https://vitest.dev/), one of the last big pieces we were missing, and I joined him to work together on the community and build up a team there too. Doing Open Source in Vite was incredible. Apart from learning from Evan and other team members, it allowed me to get to know so many other maintainers in the ecosystem. I decided I would quit my job and do it full-time. I couldn’t do it sustainably for long though.
+By the end of 2021, Vite was starting to show its potential. There were many pain points, but there were a lot of smart folks now working together to improve things. [SvelteKit](https://svelte.dev/blog/sveltekit-beta#from-snowpack-to-vite) and [Astro](https://astro.build/blog/astro-021-preview/) have moved to Vite, triggering a [wave of projects joining the ecosystem](https://patak.cat/vite/ecosystem.html). [Anthony Fu](https://github.com/antfu) started hacking on [Vitest](https://vitest.dev/), one of the last big pieces we were missing, and I joined him to work together on the community and build up a team there too. Doing Open Source in Vite was incredible. Apart from learning from Evan and other team members, it allowed me to get to know so many other maintainers in the ecosystem. I decided I would quit my job and do it full-time. I couldn’t do it sustainably for long though.
 
 ## StackBlitz gets into the game
 
