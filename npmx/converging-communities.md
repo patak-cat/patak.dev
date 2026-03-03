@@ -28,7 +28,7 @@ head:
 
 # npmx: converging communities
 
-_February 03, 2026_
+_March 03, 2026_
 
 It is hard to convey how much has changed during the last month. [npmx](https://npmx.dev) went from an idea to a fully fledged modern browser for the npm registry. The npmx community is now looking forward and having conversations about what’s next. There is so much hope in the air as we discuss new ideas, find alignment with others, and reach out to get to know the humans who got involved in building npmx as a community. This month was transformational for a lot of us. We’ve started walking towards what may be one of our most significant open source adventures. Read on. Let me tell you an open source story.
 
