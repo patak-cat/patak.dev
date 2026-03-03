@@ -9,13 +9,13 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: Update
+      content: "npmx: converging communities"
   - - meta
     - property: og:image
-      content: https://www.patak.dev/images/npmx-converging-communities.jpg
+      content: https://www.patak.cat/images/npmx-converging-communities.jpg
   - - meta
     - property: og:url
-      content: https://www.patak.dev/npmx/converging-communities
+      content: https://www.patak.cat/npmx/converging-communities
   - - meta
     - property: og:description
       content: The story of the many people and communities that converged to build npmx together
