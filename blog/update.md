@@ -24,7 +24,13 @@ head:
       content: summary_large_image
 ---
 
-<BlogCover src="/images/update.jpg" />
+<BlogCover src="/images/update.jpg" style="margin-bottom: 0; border-radius: 0;"/>
+
+<div style="border: 2px solid #333; background: #222; padding-left: 1.5rem; padding-right: 1.5rem; padding-bottom: 0.2rem; margin-bottom: 4rem; margin-top: 0; border-radius: 0 0 12px 12px;">
+
+**Update March 5, 2026:** I published this post while at one of the lowest points of a long depression. My state while writing it was way past burnout. It isn't the first time this has happened to me. As in previous episodes, I eventually recovered and began dreaming of new adventures. My web friends were very patient and supportive when I needed them. And they were there waiting for me with open arms when I was ready to start walking with them again. I’m no longer depressed, and I'm working together with them once more. You can read about this [new stage of our story here](/npmx/converging-communities.html). If you’re going through something similar to what some of us experienced last year, please know that you aren’t alone. If you think I can help in any way, get in touch with me on [atproto @patak.cat](https://bsky.app/profile/patak.cat) or [discord](https://build.npmx.dev). I’m more than happy to share notes with you and see if we can help each other. For what it is worth, I know what helped me move forward and dream about a better future for my kids again. It is finding a community where we can learn from each other and work together to build better tools for ourselves and for others.
+
+</div>
 
 # Update
 
