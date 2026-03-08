@@ -1,6 +1,6 @@
 ## Sponsors
 
-Thanks to the individuals and companies helping [make my open source work sustainable](https://github.com/sponsors/patak-dev)! 
+Thanks to the individuals and companies helping [make my open source work sustainable](https://github.com/sponsors/patak-cat)! 
 
 Special Shoutout to [StackBlitz](https://stackblitz.com), for hiring me to work full-time on the Vite Ecosystem.
 
