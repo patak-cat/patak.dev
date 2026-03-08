@@ -535,7 +535,7 @@ Web tooling is in constant evolution. For example, there is a big push in the Re
 <br>
 
 *Last updated on 2021-10-05* <br>
-Connect with me on [Twitter](https://twitter.com/patak_dev) or in [Discord @patak](https://chat.vitejs.dev/).
+Connect with me on [Discord @patak](https://chat.vitejs.dev/).
 
 <br>
 <br>

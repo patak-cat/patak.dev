@@ -899,7 +899,7 @@ There are also many individuals that I haven't had the chance to mention. Vite c
 
 _Last updated on 2021-11-30_ <br>
 
-Connect with me on [Twitter @patak_dev](https://twitter.com/patak_dev) or in [Discord @patak](https://chat.vitejs.dev/).
+Connect with me on [Discord @patak](https://chat.vitejs.dev/).
 
 If you want to help making my OS work sustainable, consider sponsoring me on [GitHub Sponsors](https://github.com/sponsors/patak-dev).
 
