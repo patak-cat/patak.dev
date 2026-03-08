@@ -26,7 +26,7 @@ export default defineConfig({
     sidebar: [],
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/patak-dev' },
+      { icon: 'github', link: 'https://github.com/patak-cat' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/patak.cat' },
       { icon: 'mastodon', link: 'https://m.webtoo.ls/@patak' }
     ],

@@ -901,7 +901,7 @@ _Last updated on 2021-11-30_ <br>
 
 Connect with me on [Discord @patak](https://chat.vitejs.dev/).
 
-If you want to help making my OS work sustainable, consider sponsoring me on [GitHub Sponsors](https://github.com/sponsors/patak-dev).
+If you want to help making my OS work sustainable, consider sponsoring me on [GitHub Sponsors](https://github.com/sponsors/patak-cat).
 
 <br>
 <br>
