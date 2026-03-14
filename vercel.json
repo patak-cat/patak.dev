@@ -1,0 +1,90 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "dm.patak.cat"
+        }
+      ],
+      "destination": "https://signal.me/#eu/USbSrA1yvaCxaj0uffUwdzNJUBkg77yhxj7NqNPUFfMtS2qOiflDFLMll2PfzKYf"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "chat.patak.cat"
+        }
+      ],
+      "destination": "https://build.npmx.dev"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "social.patak.cat"
+        },
+        {
+          "type": "host",
+          "value": "bluesky.patak.cat"
+        },
+        {
+          "type": "host",
+          "value": "bsky.patak.cat"
+        },
+        {
+          "type": "host",
+          "value": "atproto.patak.cat"
+        }
+        {
+          "type": "host",
+          "value": "at.patak.cat"
+        }
+      ],
+      "destination": "https://bsky.app/profile/patak.cat"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "github.patak.cat"
+        },
+        {
+          "type": "host",
+          "value": "gh.patak.cat"
+        },
+        {
+          "type": "host",
+          "value": "git.patak.cat"
+        }
+      ],
+      "destination": "https://github.com/patak-cat"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "sponsor.patak.cat"
+        }
+      ],
+      "destination": "https://github.com/sponsors/patak-cat"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "npm.patak.cat"
+        }
+      ],
+      "destination": "https://npmx.dev/~patak"
+    }
+  ]
+}
